@@ -1,0 +1,10 @@
+<mat-card>
+
+<div class="row block_style">
+    <div class="col-12 col-md-5">{{data.LongURL}}</div>
+    <div class="col-12 col-md-5"><a  [href]="data.shortURL">{{data.shortURL}}</a></div>
+    <div class="col-12 col-md-2"><button mat-raised-button  class="btn_copy"matTooltip="Copied"
+ (click)="copy(data.shortURL)">Copy</button>
+    </div>
+</div>
+</mat-card>

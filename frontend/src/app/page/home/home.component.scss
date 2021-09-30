@@ -1,0 +1,30 @@
+.container {
+  background-color: grey;
+  height: 100%;
+  padding: 20px 0 20px 0px;
+
+  .col-12,
+  .col-md-8,
+  .col-md-4 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .example-form-field {
+    width: 100%;
+    border-radius: 0;
+
+  }
+
+  .btn_submit {
+    margin-bottom: 0;
+    width: 100%;
+    top: 1px;
+    height: 52px;
+    border-radius: 0;
+  }
+
+  ::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+    border-radius: 0 !important
+  }
+}
