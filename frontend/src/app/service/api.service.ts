@@ -8,9 +8,9 @@ import { Observable } from 'rxjs';
 export class ApiService {
   baseUrl: string = '';
   constructor(private http: HttpClient) {
-    // this.baseUrl = 'http://localhost:1010'
+   this.baseUrl = 'http://localhost:1010'
     // this.baseUrl = 'https://api-shorturl.twentyninecarrent.com'
-   this.baseUrl = 'https://shorurl.herokuapp.com'
+     //this.baseUrl = 'https://shorurl.herokuapp.com'
     
   }
 
